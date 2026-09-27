@@ -1,22 +1,26 @@
-#include<stdio.h>
-int main()
-{-2
-    int a,b, temp=0;
-    
+#include <stdio.h>
+
+
+int main(void)
+{
+    int a, b, temp;
+
     system("cls");
 
     printf("Enter two numbers: ");
     scanf("%d %d", &a, &b);
-    printf("Before swapping the value of a is : a = %d, b = %d\n", a, b);
+
+    printf("Before swapping: a = %d, b = %d\n", a, b);
 
     temp = a;
     a = b;
     b = temp;
 
-    printf("After swapping the value of a is : a = %d, b = %d", a, b);
+    printf("After swapping: a = %d, b = %d\n", a, b);
 
     return 0;
-}  
+}
+
 
 
 
